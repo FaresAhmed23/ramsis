@@ -36,10 +36,9 @@ export default function ContactPage() {
 		setIsSubmitting(true);
 
 		try {
-			// Replace these with your actual EmailJS credentials
-			const serviceId = "service_lyzc8be"; // Replace with your service ID
-			const templateId = "template_dqn15ii"; // Replace with your template ID
-			const publicKey = "uBUr4s2U-8NmVhhN6"; // Replace with your public key
+			const serviceId = "service_lyzc8be";
+			const templateId = "template_dqn15ii";
+			const publicKey = "uBUr4s2U-8NmVhhN6";
 
 			await emailjs.sendForm(serviceId, templateId, formRef.current, publicKey);
 
