@@ -37,7 +37,7 @@ export default function ContactPage() {
 
 		try {
 			const serviceId = "service_a6efm9a";
-			const templateId = "template_qtu8t99";
+			const templateId = "template_7qpj48n";
 			const publicKey = "zjsJ4Zq5KEEPNpSRB";
 
 			await emailjs.sendForm(serviceId, templateId, formRef.current, publicKey);
