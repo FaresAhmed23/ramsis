@@ -36,9 +36,9 @@ export default function ContactPage() {
 		setIsSubmitting(true);
 
 		try {
-			const serviceId = "service_lyzc8be";
-			const templateId = "template_dqn15ii";
-			const publicKey = "uBUr4s2U-8NmVhhN6";
+			const serviceId = "service_a6efm9a";
+			const templateId = "template_qtu8t99";
+			const publicKey = "zjsJ4Zq5KEEPNpSRB";
 
 			await emailjs.sendForm(serviceId, templateId, formRef.current, publicKey);
 
